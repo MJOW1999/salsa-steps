@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import BasicSteps from "@/components/BasicSteps";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,12 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1 className={inter.className}>Salsa Steps</h1>
+        <BasicSteps
+          title={"Basic Steps"}
+          description={
+            "The Basic Steps of Cuban Salsa involve understanding the rhytmn and timing of music. Every musical rhythmn is comprised of 8 beats. The Basic Steps involve stepping on beats 1, 2, 3 and 5, 6, 7."
+          }
+        />
         <section>
           <h2>Basic Steps</h2>
           <p>
