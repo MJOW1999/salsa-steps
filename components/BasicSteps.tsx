@@ -9,7 +9,7 @@ export interface BasicStepsProps {
 export const BasicSteps = ({ title, description }: BasicStepsProps) => {
   return (
     <Basic>
-      <h2>{title}</h2>
+      <Title>{title}</Title>
       <p>{description}</p>
     </Basic>
   );
@@ -17,6 +17,12 @@ export const BasicSteps = ({ title, description }: BasicStepsProps) => {
 
 const Basic = styled.div`
   max-width: 700px;
+`;
+
+const Title = styled.h2`
+  margin: 24px 0 16px 0;
+  font-weight: 600px;
+  font-size: 18px;
 `;
 
 export default BasicSteps;
