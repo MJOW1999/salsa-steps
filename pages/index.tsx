@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import BasicSteps from "@/components/BasicSteps";
+import Steps from "@/components/shared/Steps";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,36 +17,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className={inter.className}>Salsa Steps</h1>
+        <h1>Salsa Steps</h1>
         <BasicSteps
           title={"Basic Steps"}
           description={
             "The Basic Steps of Cuban Salsa involve understanding the rhytmn and timing of music. Every musical rhythmn is comprised of 8 beats. The Basic Steps involve stepping on beats 1, 2, 3 and 5, 6, 7."
           }
         />
-        <section>
-          <h2>Basic Steps</h2>
-          <p>
-            The <b>Basic Steps</b> of Cuban Salsa involve understanding the
-            rhytmn and timing of music. Every musical rhythmn is comprised of 8
-            beats. The Basic Steps involve stepping on beats 1, 2, 3 and 5, 6,
-            7.{" "}
-          </p>
-          <h3>The Basic Steps are the following:</h3>
-          <article>
-            <ul>
-              <li>Beat 1: Step forward with your left foot</li>
-              <li>Beat 2: Step on the same spot with your right foot</li>
-              <li>
-                Beat 3: Step backwards to your original spot with your left foot
-              </li>
-
-              <li>Beat 5: Step backwards with your right foot</li>
-              <li>Beat 6: Step on the same spot with your left foot</li>
-              <li>Step forward to your original spot with your right foot</li>
-            </ul>
-          </article>
-        </section>
       </main>
     </>
   );
