@@ -24,7 +24,10 @@ I've recently been learning Cuban Salsa as part of a class. Each week we learn v
 
 ## Process
 
-- In Progress ...
+- Started by going through the weeks and pinpointing which steps were required. (_06/03_)
+- Adding Basic Steps and details of it to begin with. (_07/03_)
+
+In Progress ...
 
 ## Features
 
@@ -32,7 +35,11 @@ I've recently been learning Cuban Salsa as part of a class. Each week we learn v
 
 To-do list:
 
-- A lot :sweat_smile:
+- Create redux slices for all of the current steps and an additional one for turns
+- Design the webpage
+- Maybe add Storybook documentation of the components
+- Test accessibility of the webpage
+- In short, a lot :sweat_smile:
 
 ## Status
 
